@@ -1,0 +1,4 @@
+name: status
+# Look in documents/ecommerce/doc_ecommerce__status.md for this definition
+# We can reuse this definition in any column
+description: "{{ doc('status') }}"
