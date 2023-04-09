@@ -7,8 +7,10 @@
     // CRUCIAL - you need to change this to terminal.integrated.env.[osx|windows|linux] depending on your system
     // and point it to the folder where your profiles directory is stored!
     "terminal.integrated.env.osx": {
-        "DBT_PROFILES_DIR": "~/.dbt"
+        "DBT_PROFILES_DIR": "~/.dbt",
+		"BIGQUERY_PROJECT": "ferrous-iridium-379614"
     },
+
 
     // Automatically trimming whitespace is quite helpful
     "files.trimTrailingWhitespace": true,
