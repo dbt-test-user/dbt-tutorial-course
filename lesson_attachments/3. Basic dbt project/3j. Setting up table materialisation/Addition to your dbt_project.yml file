@@ -1,0 +1,12 @@
+# Put this anywhere in your dbt_project.yml file (I put it at the bottom)
+# You don't need anything apart from the bottom 3 lines (models: onwards)
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+# In this example config, we tell dbt to build all models in the example/
+# directory as views. These settings can be overridden in the individual model
+# files using the `{{ config(...) }}` macro.
+models:
+  lessons:
+    +materialized: table
